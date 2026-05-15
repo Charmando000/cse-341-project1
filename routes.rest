@@ -1,0 +1,28 @@
+//LOCALHOST:3000/contacts
+GET http://localhost:3001/contacts
+
+###POST
+POST http://localhost:3001/contacts/6a0207be6a0cf6e3ffa6384c
+
+{
+  "email": "test@gmail.com",
+  "username": "tester",
+  "name": "test",
+  "ipAddress": "9.9990.92./0"
+}
+
+PUT http://localhost:3001/contacts/6a0208b36a0cf6e3ffa6384d
+{
+  "email": "tester@gmail.com",
+  "username": "test",
+  "name": "jose",
+  "ipAddress": "9.9990.92./0"
+}
+
+DELETE http://localhost:3001/contacts/6a0208ca6a0cf6e3ffa6384e
+{
+  "email": "AAAA@gmail.com",
+  "username": "tes",
+  "name": "juan",
+  "ipAddress": "9.9990.92./0"
+}
