@@ -5,10 +5,9 @@
     "description": "API documentation for CSE 341 Project 1",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "localhost:3001",
   "basePath": "/",
   "schemes": [
-    "https",
     "http"
   ],
   "paths": {
@@ -37,9 +36,6 @@
     },
     "/contacts/": {
       "get": {
-        "tags": [
-          "Contacts"
-        ],
         "description": "",
         "produces": [
           "application/json"
